@@ -60,7 +60,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'azure-app-udemy2024'
+          app-name: 'azure-app-udemy2024/staging'
           slot-name: 'staging'
           package: .
           
